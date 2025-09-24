@@ -1,49 +1,47 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="globals.css" />
-        <link rel="stylesheet" href="connexion.css" />
-    </head>
-    <body>
-        <div class="connexion">
-            <div class="rectangle"></div>
-            <div class="text-wrapper">La bibliothèque numérique</div>
-            <div class="div"></div>
-            <div class="text-wrapper-2">Accueil</div>
-            <div class="rectangle-2"></div>
-            <div class="text-wrapper-3">Inscription</div>
-            <div class="rectangle-3"></div>
-            <div class="text-wrapper-4">Contactez nous</div>
-            <div class="text-wrapper-5">Mention legal</div>
-            <div class="text-wrapper-6">A propos de nous</div>
-            <div class="text-wrapper-7">Condition générales</div>
-                <form action="connexion" method="post">
-                    <label for="login">Login :</label>
-                    <input type="text" name="login" id="login" required><br>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connexion - Bibliothèque numérique</title>
+  <link rel="stylesheet" href="connexion.css">
+</head>
+<body>
 
-                    <label for="password">Mot de passe :</label>
-                    <input type="password" name="password" id="password" required><br>
-                </form>
-            <div class="text-wrapper-8">Entrez votre adresse mail:</div>
-            <p class="p">Entrez votre mot de passe:</p>
-            <div class="rectangle-4"></div>
-            <button class="text-wrapper-9" type="submit">Se connecter</button>
-            <div class="rectangle-5"></div>
-            <p class="text-wrapper-10">Vous nous avez manqué, le monde des livres vous attends</p>
-            <div class="text-wrapper-11">mdp oublié</div>
-            <p style="color:red;"> ${erreur} </p>
-        </div>
-    </body>
+  <header class="header">
+    <h1>La bibliothèque numérique</h1>
+    <nav class="nav">
+      <a href="inscription.html" class="btn">Inscription</a>
+      <a href="index.html" class="btn">Accueil</a>
+    </nav>
+  </header>
+
+  <main class="main">
+    <div class="welcome-msg">
+      <p><em>Vous nous avez manqué, le monde des livres vous attend</em></p>
+    </div>
+
+    <form class="login-form">
+      <label for="email">Entrez votre adresse mail :</label>
+      <input type="email" id="email" placeholder="Enter your value" required>
+
+      <label for="password">Entrez votre mot de passe :</label>
+      <input type="password" id="password" placeholder="Enter your value" required>
+
+      <a href="#" class="forgot">mdp oublié</a>
+
+      <button type="submit" class="submit-btn">Connexion</button>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <a href="#">À propos de nous</a>
+    <a href="#">Contactez-nous</a>
+    <a href="#">Mentions légales</a>
+    <a href="#">Conditions générales</a>
+  </footer>
+
+</body>
 </html>
-
-
-
-        <label for="login">Login :</label>
-        <input type="text" name="login" id="login" required><br>
-
-        <label for="password">Mot de passe :</label>
-        <input type="password" name="password" id="password" required><br>
     
     

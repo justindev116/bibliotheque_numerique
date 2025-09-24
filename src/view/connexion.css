@@ -1,293 +1,151 @@
-.connexion {
-    background-color: #ffffff;
-    width: 100%;
-    min-width: 1024px;
-    min-height: 768px;
-    position: relative;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.connexion .rectangle {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 1024px;
-    height: 82px;
-    background-color: #110f0f;
+body {
+  font-family: "Georgia", serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.connexion .text-wrapper {
-    position: absolute;
-    top: 9px;
-    left: 16px;
-    font-family: "Jacques Francois-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 48px;
-    letter-spacing: 0;
-    line-height: normal;
+.header {
+  background-color: #110f0f;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
 }
 
-.connexion .div {
-    position: absolute;
-    top: 25px;
-    left: 901px;
-    width: 99px;
-    height: 34px;
-    background-color: #e76d10;
-    border-radius: 10px;
+.header h1 {
+  font-size: clamp(1.2rem, 3vw, 2rem);
 }
 
-.connexion .text-wrapper-2 {
-    position: absolute;
-    top: 25px;
-    left: 923px;
-    font-family: "Instrument Serif-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
+.nav {
+  display: flex;
+  gap: 1rem;
 }
 
-.connexion .rectangle-2 {
-    position: absolute;
-    top: 25px;
-    left: 780px;
-    width: 99px;
-    height: 34px;
-    background-color: #e76d10;
-    border-radius: 10px;
+.btn {
+  background-color: #e76d10;
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s;
 }
 
-.connexion .text-wrapper-3 {
-    position: absolute;
-    top: 25px;
-    left: 785px;
-    width: 90px;
-    font-family: "Instrument Serif-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
+.btn:hover {
+  background-color: #ff8c3d;
 }
 
-.connexion .rectangle-3 {
-    position: absolute;
-    top: 681px;
-    left: 0;
-    width: 1024px;
-    height: 87px;
-    background-color: #100f0f;
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  gap: 2rem;
 }
 
-.connexion .text-wrapper-4 {
-    position: absolute;
-    top: 706px;
-    left: 297px;
-    width: 157px;
-    font-family: "Inria Serif-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
+.welcome-msg {
+  background-color: #9d2b2b;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 1.2rem;
+  max-width: 700px;
+  width: 100%;
 }
 
-.connexion .text-wrapper-5 {
-    position: absolute;
-    top: 706px;
-    left: 544px;
-    width: 157px;
-    font-family: "Inria Serif-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 400px;
 }
 
-.connexion .text-wrapper-6 {
-    position: absolute;
-    top: 706px;
-    left: 34px;
-    width: 157px;
-    font-family: "Inria Serif-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
+.login-form label {
+  font-weight: bold;
 }
 
-.connexion .text-wrapper-7 {
-    position: absolute;
-    top: 706px;
-    left: 791px;
-    width: 197px;
-    font-family: "Inria Serif-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
+.login-form input {
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f4cccc;
+  font-size: 1rem;
 }
 
-.connexion .aminput-dont-rename {
-    display: flex;
-    width: 250px;
-    align-items: center;
-    padding: 12px;
-    position: absolute;
-    top: 312px;
-    left: 387px;
-    background-color: #e1bcbccc;
-    border-radius: 8px;
-    overflow: hidden;
-    border: 1px solid;
-    border-color: #00000029;
+.forgot {
+  font-size: 0.9rem;
+  color: #444;
+  text-decoration: none;
+  text-align: right;
 }
 
-.connexion .focus-frame {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 12px;
-    left: 12px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    border: 2px solid;
-    border-color: #0d1ce3;
+.forgot:hover {
+  color: #e76d10;
 }
 
-.connexion .text {
-    position: relative;
-    width: fit-content;
-    margin-top: -1.00px;
-    font-family: "Roboto-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
+.submit-btn {
+  background-color: #e76d10;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #000;
+  transition: background 0.3s;
 }
 
-.connexion .placeholder {
-    position: relative;
-    width: fit-content;
-    margin-top: -1.00px;
-    opacity: 0.6;
-    font-family: "Roboto-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
+.submit-btn:hover {
+  background-color: #ff8c3d;
 }
 
-.connexion .caret-indicator {
-    position: relative;
-    width: 1px;
-    height: 10px;
-    background-color: #ffffff;
+/* FOOTER */
+.footer {
+  background-color: #111110;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1rem;
 }
 
-.connexion .aminput-dont-rename-2 {
-    display: flex;
-    width: 250px;
-    align-items: center;
-    padding: 12px;
-    position: absolute;
-    top: 432px;
-    left: 387px;
-    background-color: #e1bcbccc;
-    border-radius: 8px;
-    overflow: hidden;
-    border: 1px solid;
-    border-color: #00000029;
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0.5rem;
+  font-size: 0.9rem;
+  transition: color 0.3s;
 }
 
-.connexion .text-wrapper-8 {
-    position: absolute;
-    top: 267px;
-    left: 389px;
-    font-family: "Roboto-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
+.footer a:hover {
+  color: #e76d10;
 }
 
-.connexion .p {
-    position: absolute;
-    top: 393px;
-    left: 389px;
-    font-family: "Roboto-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-}
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
 
-.connexion .rectangle-4 {
-    position: absolute;
-    top: 540px;
-    left: 444px;
-    width: 135px;
-    height: 54px;
-    background-color: #e76d10;
-    border-radius: 10px;
-}
+  .welcome-msg {
+    font-size: 1rem;
+    padding: 1rem;
+  }
 
-.connexion .text-wrapper-9 {
-    position: absolute;
-    top: 546px;
-    left: 452px;
-    font-family: "Instrument Serif-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 32px;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.connexion .rectangle-5 {
-    position: absolute;
-    top: 162px;
-    left: calc(50.00% - 363px);
-    width: 726px;
-    height: 67px;
-    background-color: #c54d4d;
-    border-radius: 30px;
-}
-
-.connexion .text-wrapper-10 {
-    position: absolute;
-    top: 171px;
-    left: calc(50.00% - 323px);
-    font-family: "Instrument Serif-Italic", Helvetica;
-    font-weight: 400;
-    font-style: italic;
-    color: #000000;
-    font-size: 32px;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.connexion .text-wrapper-11 {
-    position: absolute;
-    top: 477px;
-    left: 476px;
-    font-family: "Instrument Serif-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: normal;
+  .login-form {
+    width: 90%;
+  }
 }
