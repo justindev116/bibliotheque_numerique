@@ -1,49 +1,47 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="globals.css" />
-        <link rel="stylesheet" href="inscription.css" />
-    </head>
-    <body>
-        <div class="inscription">
-            <div class="rectangle"></div>
-            <div class="text-wrapper">La bibliothèque numérique</div>
-            <div class="div"></div>
-            <div class="text-wrapper-2">accueil</div>
-            <div class="rectangle-2"></div>
-            <div class="text-wrapper-3">connexion</div>
-            <div class="rectangle-3"></div>
-            <div class="text-wrapper-4">Contactez nous</div>
-            <div class="text-wrapper-5">Mention legal</div>
-            <div class="text-wrapper-6">A propos de nous</div>
-            <div class="text-wrapper-7">Condition générales</div>
-            <div class="aminput-dont-rename">
-                <div class="focus-frame"></div>
-                <div class="text"></div>
-                <div class="placeholder">Enter your value</div>
-                <div class="caret-indicator"></div>
-            </div>
-            <div class="aminput-dont-rename-2">
-                <div class="focus-frame"></div>
-                <div class="text"></div>
-                <div class="placeholder">Enter your value</div>
-                <div class="caret-indicator"></div>
-            </div>
-            <div class="text-wrapper-8">Entrez votre adresse mail:</div>
-            <div class="aminput-dont-rename-3">
-                <div class="focus-frame"></div>
-                <div class="text"></div>
-                <div class="placeholder">Enter your value</div>
-                <div class="caret-indicator"></div>
-            </div>
-            <div class="text-wrapper-9">Entrez votre pseudo:</div>
-            <p class="p">Entrez votre mot de passe:</p>
-            <div class="rectangle-4"></div>
-            <div class="text-wrapper-10">Inscription</div>
-            <div class="rectangle-5"></div>
-            <p class="text-wrapper-11">Devenez un grand lecteur grâce à la création de votre compte</p>
-        </div>
-    </body>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inscription - Bibliothèque numérique</title>
+  <link rel="stylesheet" href="inscription.css">
+</head>
+<body>
+
+  <header class="header">
+    <h1>La bibliothèque numérique</h1>
+    <nav class="nav">
+      <a href="connexion.html" class="btn">Connexion</a>
+      <a href="index.html" class="btn">Accueil</a>
+    </nav>
+  </header>
+
+  <main class="main">
+    <div class="welcome-msg">
+      <p><em>Devenez un grand lecteur grâce à la création de votre compte</em></p>
+    </div>
+
+    <form class="signup-form">
+      <label for="pseudo">Entrez votre pseudo :</label>
+      <input type="text" id="pseudo" placeholder="Enter your value" required>
+
+      <label for="email">Entrez votre adresse mail :</label>
+      <input type="email" id="email" placeholder="Enter your value" required>
+
+      <label for="password">Entrez votre mot de passe :</label>
+      <input type="password" id="password" placeholder="Enter your value" required>
+
+      <button type="submit" class="submit-btn">Inscription</button>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <a href="#">À propos de nous</a>
+    <a href="#">Contactez-nous</a>
+    <a href="#">Mentions légales</a>
+    <a href="#">Conditions générales</a>
+  </footer>
+
+</body>
 </html>
+
