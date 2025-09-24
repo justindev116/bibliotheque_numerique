@@ -1,0 +1,206 @@
+.livre {
+    background-color: #ffffff;
+    width: 100%;
+    min-width: 1024px;
+    min-height: 768px;
+    position: relative;
+}
+
+.livre .rectangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    height: 82px;
+    background-color: #110f0f;
+}
+
+.livre .text-wrapper {
+    position: absolute;
+    top: 9px;
+    left: 15px;
+    font-family: "Jacques Francois-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.livre .div {
+    position: absolute;
+    top: 25px;
+    left: 901px;
+    width: 99px;
+    height: 34px;
+    background-color: #e76d10;
+    border-radius: 10px;
+}
+
+.livre .text-wrapper-2 {
+    position: absolute;
+    top: 25px;
+    left: 923px;
+    font-family: "Instrument Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.livre .rectangle-2 {
+    position: absolute;
+    top: 25px;
+    left: 780px;
+    width: 99px;
+    height: 34px;
+    background-color: #e76d10;
+    border-radius: 10px;
+}
+
+.livre .text-wrapper-3 {
+    position: absolute;
+    top: 25px;
+    left: 799px;
+    font-family: "Instrument Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.livre .rectangle-3 {
+    position: absolute;
+    top: 681px;
+    left: 0;
+    width: 1024px;
+    height: 87px;
+    background-color: #121111;
+}
+
+.livre .text-wrapper-4 {
+    position: absolute;
+    top: 706px;
+    left: 297px;
+    width: 157px;
+    font-family: "Inria Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.livre .text-wrapper-5 {
+    position: absolute;
+    top: 706px;
+    left: 544px;
+    width: 157px;
+    font-family: "Inria Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.livre .text-wrapper-6 {
+    position: absolute;
+    top: 706px;
+    left: 34px;
+    width: 157px;
+    font-family: "Inria Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.livre .text-wrapper-7 {
+    position: absolute;
+    top: 706px;
+    left: 791px;
+    width: 197px;
+    font-family: "Inria Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.livre .element {
+    position: absolute;
+    top: 179px;
+    left: 34px;
+    width: 219px;
+    height: 349px;
+    aspect-ratio: 0.63;
+    object-fit: cover;
+}
+
+.livre .text-wrapper-8 {
+    position: absolute;
+    top: 183px;
+    left: 301px;
+    width: 153px;
+    font-family: "Instrument Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.livre .text-wrapper-9 {
+    position: absolute;
+    top: 283px;
+    left: 303px;
+    width: 131px;
+    font-family: "Instrument Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.livre .text-wrapper-10 {
+    position: absolute;
+    top: 230px;
+    left: 303px;
+    font-family: "Instrument Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.livre .text-wrapper-11 {
+    position: absolute;
+    top: 351px;
+    left: 298px;
+    width: 325px;
+    font-family: "Instrument Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.livre .p {
+    position: absolute;
+    top: 554px;
+    left: 51px;
+    font-family: "Instrument Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
