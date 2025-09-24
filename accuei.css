@@ -1,0 +1,363 @@
+.accueil-connnect {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 100%;
+    min-width: 1024px;
+    min-height: 768px;
+    position: relative;
+}
+
+.accueil-connnect .rectangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1024px;
+    height: 82px;
+    background-color: #110f0f;
+}
+
+.accueil-connnect .text-wrapper {
+    position: absolute;
+    top: 9px;
+    left: 14px;
+    font-family: "Jacques Francois-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.accueil-connnect .div {
+    position: absolute;
+    top: 25px;
+    left: 885px;
+    width: 121px;
+    height: 34px;
+    background-color: #e76d10;
+    border-radius: 10px;
+}
+
+.accueil-connnect .text-wrapper-2 {
+    position: absolute;
+    top: 25px;
+    left: 893px;
+    font-family: "Instrument Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.accueil-connnect .rectangle-2 {
+    position: absolute;
+    top: 25px;
+    left: 761px;
+    width: 99px;
+    height: 34px;
+    background-color: #e76d10;
+    border-radius: 10px;
+}
+
+.accueil-connnect .rectangle-3 {
+    position: absolute;
+    top: 681px;
+    left: 0;
+    width: 1024px;
+    height: 87px;
+    background-color: #0a0a0a;
+}
+
+.accueil-connnect .text-wrapper-3 {
+    position: absolute;
+    top: 706px;
+    left: 297px;
+    width: 157px;
+    font-family: "Inria Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.accueil-connnect .text-wrapper-4 {
+    position: absolute;
+    top: 706px;
+    left: 544px;
+    width: 157px;
+    font-family: "Inria Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.accueil-connnect .text-wrapper-5 {
+    position: absolute;
+    top: 706px;
+    left: 34px;
+    width: 157px;
+    font-family: "Inria Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.accueil-connnect .text-wrapper-6 {
+    position: absolute;
+    top: 706px;
+    left: 791px;
+    width: 197px;
+    font-family: "Inria Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.accueil-connnect .text-wrapper-7 {
+    position: absolute;
+    top: 29px;
+    left: 784px;
+    font-family: "Instrument Serif-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.accueil-connnect .aminput-dont-rename {
+    display: flex;
+    width: 250px;
+    align-items: center;
+    padding: 12px;
+    position: absolute;
+    top: 148px;
+    left: 735px;
+    background-color: #e1bcbccc;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #00000029;
+}
+
+.accueil-connnect .focus-frame {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 12px;
+    left: 12px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 2px solid;
+    border-color: #0d1ce3;
+}
+
+.accueil-connnect .text {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.accueil-connnect .placeholder {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    opacity: 0.6;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.accueil-connnect .caret-indicator {
+    position: relative;
+    width: 1px;
+    height: 10px;
+    background-color: #ffffff;
+}
+
+.accueil-connnect .text-wrapper-8 {
+    position: absolute;
+    top: 112px;
+    left: 772px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.accueil-connnect .rectangle-4 {
+    position: absolute;
+    top: 130px;
+    left: 14px;
+    width: 171px;
+    height: 39px;
+    background-color: #a59f32;
+    border-radius: 30px;
+}
+
+.accueil-connnect .text-wrapper-9 {
+    position: absolute;
+    top: 138px;
+    left: 24px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.accueil-connnect .rectangle-5 {
+    position: absolute;
+    top: 422px;
+    left: 14px;
+    width: 185px;
+    height: 39px;
+    background-color: #a59f32;
+    border-radius: 30px;
+}
+
+.accueil-connnect .text-wrapper-10 {
+    position: absolute;
+    top: 430px;
+    left: 24px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.accueil-connnect .element {
+    position: absolute;
+    top: 217px;
+    left: 40px;
+    width: 105px;
+    height: 167px;
+    aspect-ratio: 0.63;
+    object-fit: cover;
+}
+
+.accueil-connnect .rectangle-6 {
+    position: absolute;
+    top: 484px;
+    left: 35px;
+    width: 114px;
+    height: 165px;
+    background-color: #652929;
+}
+
+.accueil-connnect .rectangle-7 {
+    position: absolute;
+    top: 484px;
+    left: 213px;
+    width: 114px;
+    height: 165px;
+    background-color: #652929;
+}
+
+.accueil-connnect .rectangle-8 {
+    position: absolute;
+    top: 484px;
+    left: 391px;
+    width: 114px;
+    height: 165px;
+    background-color: #652929;
+}
+
+.accueil-connnect .rectangle-9 {
+    position: absolute;
+    top: 484px;
+    left: 569px;
+    width: 114px;
+    height: 165px;
+    background-color: #652929;
+}
+
+.accueil-connnect .rectangle-10 {
+    position: absolute;
+    top: 484px;
+    left: 745px;
+    width: 114px;
+    height: 165px;
+    background-color: #652929;
+}
+
+.accueil-connnect .rectangle-11 {
+    position: absolute;
+    top: 484px;
+    left: 934px;
+    width: 114px;
+    height: 165px;
+    background-color: #652929;
+}
+
+.accueil-connnect .rectangle-12 {
+    position: absolute;
+    top: 219px;
+    left: 222px;
+    width: 105px;
+    height: 165px;
+    background-color: #932626;
+}
+
+.accueil-connnect .rectangle-13 {
+    position: absolute;
+    top: 219px;
+    left: 756px;
+    width: 105px;
+    height: 165px;
+    background-color: #932626;
+}
+
+.accueil-connnect .rectangle-14 {
+    position: absolute;
+    top: 219px;
+    left: 934px;
+    width: 105px;
+    height: 165px;
+    background-color: #932626;
+}
+
+.accueil-connnect .rectangle-15 {
+    position: absolute;
+    top: 219px;
+    left: 400px;
+    width: 105px;
+    height: 165px;
+    background-color: #932626;
+}
+
+.accueil-connnect .rectangle-16 {
+    position: absolute;
+    top: 219px;
+    left: 578px;
+    width: 105px;
+    height: 165px;
+    background-color: #932626;
+}
