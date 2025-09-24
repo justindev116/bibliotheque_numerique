@@ -1,219 +1,115 @@
-.accueil {
-    background-color: #ffffff;
-    width: 100%;
-    min-width: 1024px;
-    min-height: 768px;
-    position: relative;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.accueil .rectangle {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 1024px;
-    height: 82px;
-    background-color: #110f0f;
+body {
+  font-family: "Georgia", serif;
+  background-color: #fff;
+  color: #111;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.accueil .text-wrapper {
-    position: absolute;
-    top: 10px;
-    left: 11px;
-    font-family: "Jacques Francois-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 48px;
-    letter-spacing: 0;
-    line-height: normal;
+.header {
+  background-color: #110f0f;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
 }
 
-.accueil .div {
-    position: absolute;
-    top: 25px;
-    left: 901px;
-    width: 99px;
-    height: 34px;
-    background-color: #e76d10;
-    border-radius: 10px;
+.header h1 {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
 }
 
-.accueil .text-wrapper-2 {
-    position: absolute;
-    top: 25px;
-    left: 910px;
-    width: 90px;
-    font-family: "Instrument Serif-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
+.nav {
+  display: flex;
+  gap: 1rem;
 }
 
-.accueil .rectangle-2 {
-    position: absolute;
-    top: 25px;
-    left: 780px;
-    width: 99px;
-    height: 34px;
-    background-color: #e76d10;
-    border-radius: 10px;
+.btn {
+  background-color: #e76d10;
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s;
 }
 
-.accueil .text-wrapper-3 {
-    position: absolute;
-    top: 25px;
-    left: 785px;
-    width: 90px;
-    font-family: "Instrument Serif-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
+.btn:hover {
+  background-color: #ff8c3d;
 }
 
-.accueil .rectangle-3 {
-    position: absolute;
-    top: 161px;
-    left: 25px;
-    width: 486px;
-    height: 204px;
-    background-color: #9d2b2b;
-    border-radius: 20px;
+
+.main {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
 }
 
-.accueil .p {
-    position: absolute;
-    top: 175px;
-    left: 44px;
-    width: 448px;
-    font-family: "Jacques Francois-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 32px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
-.accueil .text-wrapper-4 {
-    position: absolute;
-    top: 270px;
-    left: 39px;
-    width: 431px;
-    font-family: "Inria Serif-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
+.card {
+  background-color: #9d2b2b;
+  color: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
 }
 
-.accueil .livres-anciens-musee {
-    position: absolute;
-    top: 161px;
-    left: 634px;
-    width: 331px;
-    height: 442px;
-    aspect-ratio: 0.75;
-    object-fit: cover;
+.card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
 }
 
-.accueil .rectangle-4 {
-    position: absolute;
-    top: 681px;
-    left: 0;
-    width: 1024px;
-    height: 87px;
-    background-color: #111110;
+.image-side img {
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
-.accueil .text-wrapper-5 {
-    position: absolute;
-    top: 706px;
-    left: 297px;
-    width: 157px;
-    font-family: "Inria Serif-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
+
+.footer {
+  background-color: #111110;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1rem;
 }
 
-.accueil .text-wrapper-6 {
-    position: absolute;
-    top: 706px;
-    left: 544px;
-    width: 157px;
-    font-family: "Inria Serif-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0.5rem;
+  font-size: 0.9rem;
+  transition: color 0.3s;
 }
 
-.accueil .text-wrapper-7 {
-    position: absolute;
-    top: 706px;
-    left: 34px;
-    width: 157px;
-    font-family: "Inria Serif-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
+.footer a:hover {
+  color: #e76d10;
 }
 
-.accueil .text-wrapper-8 {
-    position: absolute;
-    top: 706px;
-    left: 791px;
-    width: 197px;
-    font-family: "Inria Serif-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-}
 
-.accueil .rectangle-5 {
-    position: absolute;
-    top: 400px;
-    left: 26px;
-    width: 486px;
-    height: 223px;
-    background-color: #753f3f;
-    border-radius: 20px;
-}
-
-.accueil .text-wrapper-9 {
-    position: absolute;
-    top: 417px;
-    left: 45px;
-    width: 448px;
-    font-family: "Jacques Francois-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 32px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
-}
-
-.accueil .text-wrapper-10 {
-    position: absolute;
-    top: 519px;
-    left: 39px;
-    width: 431px;
-    font-family: "Inria Serif-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
+@media (max-width: 900px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+  
+  .image-side {
+    order: -1; 
+  }
 }
