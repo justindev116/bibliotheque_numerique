@@ -1,47 +1,60 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="globals.css" />
-        <link rel="stylesheet" href="accuei.css" />
-    </head>
-    <body>
-        <div class="accueil-connnect">
-            <div class="rectangle"></div>
-            <div class="text-wrapper">La bibliothèque numérique</div>
-            <div class="div"></div>
-            <div class="text-wrapper-2">Déconnexion</div>
-            <div class="rectangle-2"></div>
-            <div class="rectangle-3"></div>
-            <div class="text-wrapper-3">Contactez nous</div>
-            <div class="text-wrapper-4">Mention legal</div>
-            <div class="text-wrapper-5">A propos de nous</div>
-            <div class="text-wrapper-6">Condition générales</div>
-            <div class="text-wrapper-7">Compte</div>
-            <div class="aminput-dont-rename">
-                <div class="focus-frame"></div>
-                <div class="text"></div>
-                <p class="placeholder">entrer un titre, genre, auteur...</p>
-                <div class="caret-indicator"></div>
-            </div>
-            <div class="text-wrapper-8">Rechercher un livre:</div>
-            <div class="rectangle-4"></div>
-            <div class="text-wrapper-9">Liste des favoris:</div>
-            <div class="rectangle-5"></div>
-            <div class="text-wrapper-10">Livres du moment:</div>
-            <img class="element" src="img/1003w-uk1z20759kq-1.png" />
-            <div class="rectangle-6"></div>
-            <div class="rectangle-7"></div>
-            <div class="rectangle-8"></div>
-            <div class="rectangle-9"></div>
-            <div class="rectangle-10"></div>
-            <div class="rectangle-11"></div>
-            <div class="rectangle-12"></div>
-            <div class="rectangle-13"></div>
-            <div class="rectangle-14"></div>
-            <div class="rectangle-15"></div>
-            <div class="rectangle-16"></div>
-        </div>
-    </body>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bibliothèque - Tableau de bord</title>
+  <link rel="stylesheet" href="accueil.css">
+</head>
+<body>
+
+  <header class="header">
+    <h1>La bibliothèque numérique</h1>
+    <nav class="nav">
+      <a href="compte.html" class="btn">Compte</a>
+      <a href="index.html" class="btn logout">Déconnexion</a>
+    </nav>
+  </header>
+
+  <main class="main">
+
+    <section class="search-section">
+      <label for="search">Rechercher un livre :</label>
+      <input type="text" id="search" placeholder="entrer un titre, genre, auteur...">
+      <ul class="dropdown" id="dropdown"></ul>
+    </section>
+
+    <section class="books-section">
+      <h2>Liste des favoris :</h2>
+      <div class="book-carousel">
+        <div class="book"><img src="//src/Livres/Dream_psychologie/15489-cover.png" alt="Livre favori"></div>
+        <div class="book"></div>
+        <div class="book"></div>
+        <div class="book"></div>
+        <div class="book"></div>
+      </div>
+    </section>
+
+    <section class="books-section">
+      <h2>Livres du moment :</h2>
+      <div class="book-carousel">
+        <div class="book"></div>
+        <div class="book"></div>
+        <div class="book"></div>
+        <div class="book"></div>
+        <div class="book"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <a href="#">À propos de nous</a>
+    <a href="#">Contactez-nous</a>
+    <a href="#">Mentions légales</a>
+    <a href="#">Conditions générales</a>
+  </footer>
+
+  <script src="bibliotheque.js"></script>
+</body>
 </html>
